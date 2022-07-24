@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gothic A1';
+    src: url('../fonts/GothicA1-SemiBold.eot');
+    src: url('../fonts/GothicA1-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GothicA1-SemiBold.woff2') format('woff2'),
+    url('../fonts/GothicA1-SemiBold.woff') format('woff'),
+    url('../fonts/GothicA1-SemiBold.ttf') format('truetype'),
+    url('../fonts/GothicA1-SemiBold.svg#GothicA1-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: darkblue;
+}
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contact_form {
+    padding: 21px 0 200px 0;
+}
+header nav ul li {
+    margin: 0 10px;
+}
+header div ul li {
+    margin: 0 10px;
+}
+header div ul {
+    display: flex;
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+header nav ul li a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header div ul a {
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.main {
+    background-size: cover;
+    height: 100vh;
+    padding-top: 170px;
+    background-image: url("../images/bg.jpg")
+}
+section div h1 {
+    font-family: 'Gothic A1';
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+section div article {
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    max-width: 446px;
+    margin-bottom: 118px;
+    padding: 37px 33px 34px 33px;
+    justify-content: space-between;
+}
+section div article img {
+    margin-right: 28px;
+}
+section div article p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    list-style: none;
+}
+#order_project {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    justify-content: center;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 48px;
+    text-decoration: none;
+}
+.circles {
+    display: block;
+    width: 100%;
+    margin-bottom: 200px;
+}
+section article form h3 {
+    line-height: 130%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    display: block;
+    margin-bottom: 30px;
+}
+section article form {
+    max-width: 392px;
+    width: 100%;
+}
+section article form div {
+    max-width: 392px;
+    margin-bottom: 60px;
+}
+section article form div input {
+    border: none;
+    border-bottom: solid 1px black;
+    width: 100%;
+    display: block;
+    margin-bottom: 40px;
+    height: 24px;
+}
+section article form div textarea {
+    border: none;
+    border-bottom: solid 1px black;
+    height: 24px;
+    resize: none;
+    width: 100%;
+    display: block;
+}
+section article form button {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 51px;
+    border: none;
+}
+.rectangle {
+    max-width: 616px;
+}
+#rectangle_image {
+    display: block;
+    width: 100%;
+}
+.circles_img {
+    width: 100%;
+}
+.section_about_us {
+    margin-top: 14px;
+    margin-bottom: 160px;
+}
+.about_us_img_margin {
+    margin-bottom: 160px;
+}
+.about_us_article_margin {
+    margin-bottom: 160px;
+}
+#h3_about_us {
+    font-family: 'Gothic A1';
+    Font-size: 24px;
+    Line-height: 130%;
+    text-align-all: Left;
+    Vertical-align: Top;
+    margin-bottom: 60px;
+}
+.p_about_us {
+    Font-size: 20px;
+    Line-height: 150%;
+    text-align-all: Left;
+    Vertical-align: Top;
+}
+.div_about_us {
+    margin-right: 120px;
+    max-width: 385px;
+}
+#p_margin {
+    margin-bottom: 30px;
+}
+.article_about_us {
+    max-width: 1110px;
+    margin: auto;
+}
+.img_about_us {
+    max-width: 720px;
+}
+.img_about_us img {
+    display: block;
+    width: 100%;
+}
+footer {
+    background-image: url("../images/bg_footer.jpg");
+    padding: 50px 0;
+}
+footer section a {
+    text-decoration: none;
+}
+footer section div ul {
+    list-style: none;
+}
+#footer_contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+#our_social {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF
+}
+
+.our_social_images {
+    padding-right: 20px;
+}
+footer section div ul li:first-of-type {
+    padding-bottom: 30px;
+}
+footer section div ul li:nth-child(2) {
+    padding-bottom: 30px;
+}
+.li_a_mail_phone_contacts {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.li_mail_phone_contacts {
+    text-align: right;
+}
+
+#text_map {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 42px 158px;
+    background-image: url("../images/footer_map.png");
+    display: block;
+    text-align: center;
+}
+#footer_map {
+    max-width: 540px;
+}
+article form h3 {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+}
